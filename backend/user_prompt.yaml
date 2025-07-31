@@ -1,0 +1,40 @@
+# user_prompt.yaml
+prompts:
+  # 与output-format.yaml中数据模型名称对应
+  story_dynamic: 
+    zh: "使用这张图片生成一个故事, 故事主角名字为{name}，故事发生在{place}"
+    en: "Use this picture to generate one story, the role name in the story is {name}, and happen in {place}"
+  chikan:
+    zh: |
+      **目标人物信息:**
+      姓名：{name}
+      年龄：{age}
+      职业：{occupation}
+      性格：{personality}
+      日常行程：{schedule}
+      兴趣爱好：{hobbies}
+      **我的设定:**
+      *   文笔基调: {tone}
+      **特定场景/续写要求:**
+      {scene}
+      请严格按照你的角色设定和核心指令，生成JSON格式的日记内容。`;
+    
+    en: |
+      Target Person Information:
+      Name: {name}
+      Age: {age}
+      Occupation: {occupation}
+      Personality: {personality}
+      Daily Schedule: {schedule}
+      Hobbies: {hobbies}
+
+      My Settings:
+
+      Tone Preference: {tone}
+      Specific Scene/Continuation Requirements:
+      {scene}
+
+      Please in english and strictly follow your role-playing settings and core instructions to generate the diary content in JSON format.
+  upOrNot:
+    zh: "开始游戏。请评估这张艺术品。" 
+    en: "Begin the game. Please evaluation this artwork."

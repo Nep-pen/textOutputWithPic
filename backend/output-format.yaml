@@ -1,0 +1,126 @@
+# output-format.yaml
+types:
+  # 数据模型名称与preset_prompt.yaml中的提示词名称对应
+  story:
+    fields:
+      title: 
+        type: str
+        label-zh: "标题"
+        sort: 1
+      artist: 
+        type: str
+        default: Anonymous
+        label-zh: "作者"
+        sort: 2
+      firstScene: 
+        type: str
+        label-zh: "第一幕"
+        sort: 3
+      secondScene: 
+        type: str
+        label-zh: "第二幕"
+        sort: 4
+      thirdScene: 
+        type: str
+        label-zh: "第三幕"
+        sort: 5
+  
+  story_dynamic:
+    fields:
+      title: 
+        type: str
+        label-zh: "标题"
+        label-en: "title"
+        sort: 1
+      artist: 
+        type: str
+        default: Anonymous
+        label-zh: "作者"
+        label-en: "artist"
+        sort: 2
+      firstScene:
+        type: str
+        label-zh: "第一幕"
+        label-en: "first scene"
+        sort: 3
+      secondScene: 
+        type: str
+        label-zh: "第二幕"
+        label-en: "second scene"
+        sort: 4
+      thirdScene: 
+        type: str
+        label-zh: "第三幕"
+        label-en: "third scene"
+        sort: 5
+      fourthScene: 
+        type: str
+        label-zh: "第四幕"
+        label-en: "fourth scene"
+        sort: 6
+  
+  chikan:
+    fields:
+      rating:
+        type: str
+        label-zh: "评分"
+        sort: 1
+        label-en: "rating"
+      justification:
+        type: str
+        label-zh: "理由"
+        sort: 2
+        label-en: "justification"
+      background:
+        type: str
+        label-zh: "背景"
+        sort: 3
+        label-en: "background"
+      process:
+        type: str
+        label-zh: "过程"
+        sort: 4
+        label-en: "process"
+      monologue:
+        type: str
+        label-zh: "内心独白"
+        sort: 5
+        label-en: "monologue"
+      next_plan:
+        type: str
+        label-zh: "计划"
+        label-en: "next_plan"
+        sort: 6
+      clothing_evaluation:
+        type: str
+        label-zh: "衣物"
+        label-en: "clothing_evaluation"
+        sort: 7
+      photos:
+        type: str
+        label-zh: "私密照片"
+        label-en: "photos"
+        sort: 8
+      notes:
+        type: str
+        label-zh: "私密内容"
+        label-en: "notes"
+        sort: 9
+      messages:
+        type: str
+        label-zh: "聊天记录"
+        label-en: "messages"
+        sort: 10
+
+  upOrNot: 
+    fields:
+      rating:
+        type: str
+        label-zh: "评分"
+        sort: 1
+        label-en: "rating"
+      explanation:
+        type: str
+        label-zh: "理由"
+        sort: 2
+        label-en: "justification"

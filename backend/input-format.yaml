@@ -1,0 +1,66 @@
+# input-format.yaml
+types:
+  # 与preset_prompt.yaml中填充值对应
+  story_dynamic:
+    label-zh: "简单小故事"
+    label-en: "short story"
+    fields:
+      name:
+        type: str
+        label-zh: "姓名"
+        label-en: "name"
+        sort: 1
+      place:
+        type: str
+        label-zh: "地点"
+        label-en: "place"
+        sort: 2
+
+  chikan:
+    label-zh: "痴汉日记"
+    label-en: "Chikan journal"
+    fields:
+      name:
+        type: str
+        sort: 1
+        label-zh: "姓名"
+        label-en: "name"
+      age:
+        type: str
+        sort: 2
+        label-zh: "年龄"
+        label-en: "age"
+      occupation:
+        type: str
+        sort: 3
+        label-zh: "职业"
+        label-en: "occupation"
+      personality:
+        type: str
+        sort: 4
+        label-zh: "性格"
+        label-en: "personality"
+      schedule:
+        type: str
+        sort: 5
+        label-zh: "日常行程"
+        label-en: "schedule"
+      hobbies:
+        type: str
+        sort: 6
+        label-zh: "兴趣爱好"
+        label-en: "hobbies"
+      tone:
+        type: str
+        sort: 7
+        label-zh: "文笔基调"
+        label-en: "tone"
+      scene:
+        type: str
+        sort: 10
+        label-zh: "特定场景/续写要求"
+        label-en: "scene"
+
+  upOrNot:
+    label-zh: '上不上评分'
+    label-en: 'Fxxk or Not '
